@@ -1,0 +1,363 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.head{
+    display: flex;
+    padding-top: 20px;
+
+}
+.rhead{
+    flex: 1;
+    text-align: center;
+    padding-top: 5px;
+}
+.rhead ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+.rhead ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.rh2{
+    display: inline-block;
+    padding-left: 20px;
+}
+.rh22{
+    display: inline-block;
+    padding-left: 20px;
+}
+.rhead2{
+    flex-basis: 10%;
+}
+.smlcontainer{
+    background-image:url(./cycleweb/bg.jpeg);
+    min-width: 1100px;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 410px;
+    padding-left:150px;
+
+}
+.scr1{
+    position: relative;
+    width: 400px;
+    height: 270px;
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.9);
+    
+}
+.sr1t{
+    /* padding-top: 20px; */
+    padding-left: 20px;
+    border-left: 3px solid rosybrown;
+
+}
+.scr2{
+    position: absolute;
+    top: 250px;
+    left: 110px;
+    width: 120px;
+    height: 40px;
+    background-color:rosybrown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.scr2t{
+}
+.round{
+    /* padding: 10px; */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:2px solid black;
+    background-color: black;
+    align-items: center;
+}
+.wround{
+    /* padding: 10px; */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:1px solid gray;
+    background-color:white;
+    /* text-align: center; */
+    align-items: center;
+}
+.rounds{
+    width: 100px;
+    height: 30px;
+    justify-content: space-around;
+    background-color:white;
+    position: absolute;
+    /* display: inline-block; */
+    display: flex;
+    top: 340px;
+    left: 400px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+/* 2nd page  */
+
+.secondhead{
+    display: flex;
+    position: relative;
+}
+ .spn{
+    display: inline-block;
+    font-size: 200px;
+    font-weight:bolder;
+    padding-left: 550px;
+    color:lightgray;
+    mix-blend-mode: difference;
+    
+    
+}
+.pp{
+    display: inline-block;
+    position: absolute;
+    font-size: 60px;
+    left: 350px;
+    bottom: 75px;
+    background-color:white;
+    
+}
+.secondtext{
+    text-align: center;
+}
+.roundimg{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+.rh{
+    width: 110px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 140px;
+    text-align: center;
+    padding-top: 5px;
+}
+.thpage{
+    display: flex;
+    position: relative;
+}
+.ppp{
+    display: inline-block;
+    position: absolute;
+    font-size: 60px;
+    left: 420px;
+    bottom: 75px;
+    background-color:white;
+    
+}
+.thpage2{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.third{
+    display: inline-block;
+    padding: 20px 80px;
+    background-color:gray;
+    color: white;
+    margin-left: 50px;
+
+}
+.third2{
+    display: inline-block;
+    padding: 20px 80px;
+    background-color:white;
+    color:black;
+    border: 1px solid gray;
+    margin-left: 50px;
+}
+.cycpic{
+    display: flex;
+    justify-content: space-between;
+}
+.pic{
+    display: inline-block;
+    border: 2px solid lightgray;
+    position: relative;
+    overflow: hidden;
+}
+.sale{
+    position: absolute;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    background-color: rgb(116, 19, 19);
+    color: white;
+    padding: 20px;
+    padding-top: 110px;
+    padding-left: 50px;
+    top: -75px;
+    right: -78px;
+}
+.textpic{
+    text-align: center;
+    line-height: 30px;
+}
+.smallcontainer{
+    background-image:url(./cycleweb/bg2.jpg);
+    min-width: 1100px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 410px;
+    padding-left:150px;
+    /* mix-blend-mode:difference ; */
+    /* color: white; */
+}
+.smallcontainer{
+    position: relative;
+}
+.smallcontainer img{
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+.smltext{
+    position: absolute;
+    padding: 30px;
+    width: 400px;
+    height: 150px;
+   background-color: white;
+    color: gray;
+    border: 2px dashed brown;
+    bottom: 120px;
+    right: 40px;
+}
+.lastsmlcontainer{
+    display: flex;
+    position: relative;
+}
+.pt{
+    display: inline-block;
+    position: absolute;
+    font-size: 60px;
+    left: 390px;
+    bottom: 75px;
+    background-color: white;
+}
+.spnn{
+    display: inline-block;
+    position: relative;
+    font-size: 200px;
+    font-weight:bolder;
+    padding-left: 550px;
+    color:lightgray;
+    mix-blend-mode: difference;
+}
+.imagee{
+    display: inline-block;
+    padding: 15px;
+    /* justify-content: space-evenly; */
+}
+.peoplecontainer{
+    width: 100%;
+    display: flex;
+}
+.people{
+    width: 50%;
+    /* justify-content: space-evenly; */
+    
+}
+.ccontainer{
+    position: relative;
+    background-color:rgb(250, 238, 247);
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.people img{
+    /* margin-left: auto; */
+    /* justify-content: space-around; */
+    padding: 10px;
+    padding-top: 20px;
+}
+.pplpage{
+    position: absolute;
+    margin-right: auto;
+    background-color: white;
+    width: 50%;
+    padding: 30px;
+    border: 15px solid gray;
+    text-align: center;
+    height: 450px;
+    top: 30px;
+    right: 50px;
+}
+.ecyc{
+    position: absolute;
+    top: 280px;
+    right: 250px;
+}
+.lcontainer{
+    /* display: inline-block; */
+    display: flex;
+    background-color:rgb(85, 85,85);
+    color: white;
+    width: 1250px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.li1{
+    width:250px;
+    /* display: inline-block; */
+    padding: 15px;
+    padding-top: 30px;
+}
+.li2{
+    width:250px;
+    /* display: inline-block; */
+    padding: 20px;
+    padding-top: 30px;
+}
+.li3{
+    width: 250px;
+    /* display: inline-block; */
+    padding: 20px;
+    padding-top: 30px;
+}
+.li4{
+    width:400px;
+    /* display: inline-block; */
+    padding: 20px;
+    /* padding-top: 25px; */
+}
+.lcontainer p{
+    color: darkgray;
+    padding: 20px;
+}
+.lcontainer span{
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+.li4 input{
+    padding: 10px;
+}
+.in{
+    margin-left: 20px;
+}
